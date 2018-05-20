@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="rim_layout_margin">8dp</dimen>
+    <dimen name="rim_height_image">184dp</dimen>
+    <dimen name="rim_padding">8dp</dimen>
+    <dimen name="rim_text_big">24sp</dimen>
+    <dimen name="rim_text_normal">16sp</dimen>
+    <dimen name="ail_width_btn">120dp</dimen>
+    <dimen name="ail_width_fab_progress_circle">4dp</dimen>
+    <dimen name="ail_latout_margin_fab">16dp</dimen>
+    <dimen name="lbs_layout_height">500dp</dimen>
+    <dimen name="lbs_behavior_peek_height">64dp</dimen>
+    <dimen name="lbs_padding_text">16dp</dimen>
+    <dimen name="lbs_text_big">24sp</dimen>
+    <dimen name="lbs_padding">8dp</dimen>
+    <dimen name="ri_elevation">8dp</dimen>
+    <dimen name="ri_padding">8dp</dimen>
+    <dimen name="ri_text_big">20sp</dimen>
+    <dimen name="ri_text_normal">16sp</dimen>
+</resources>

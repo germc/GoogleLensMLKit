@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.wonderkiln.camerakit.CameraView
+        android:id="@+id/ail_camera_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true" />
+
+    <FrameLayout
+        android:id="@+id/ail_frame_preview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        tools:visibility="visible">
+
+        <ImageView
+            android:id="@+id/ail_image_preview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="ContentDescription"
+            tools:src="@mipmap/ic_launcher" />
+
+        <ImageButton
+            android:id="@+id/ail_retry_btn"
+            android:layout_width="@dimen/ail_width_btn"
+            android:layout_height="@dimen/ail_width_btn"
+            android:layout_gravity="center"
+            android:background="@null"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_refresh"
+            tools:ignore="ContentDescription" />
+
+    </FrameLayout>
+
+    <include
+        android:id="@+id/ail_bottom_layout"
+        layout="@layout/layout_bottom_sheet" />
+
+    <com.github.jorgecastilloprz.FABProgressCircle
+        android:id="@+id/ail_fab_progress_circle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:arcColor="@color/colorAccent"
+        app:arcWidth="@dimen/ail_width_fab_progress_circle"
+        app:layout_anchor="@id/ail_bottom_layout"
+        app:layout_anchorGravity="end">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/ail_fab_take_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="@dimen/ail_latout_margin_fab"
+            android:src="@drawable/ic_camera"
+            app:backgroundTint="@color/colorPrimary"
+            app:fabSize="normal"
+            app:rippleColor="@color/colorAccent" />
+
+    </com.github.jorgecastilloprz.FABProgressCircle>
+
+</android.support.design.widget.CoordinatorLayout>

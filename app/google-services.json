@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "45551914929",
+    "firebase_url": "https://lensmlkit.firebaseio.com",
+    "project_id": "lensmlkit",
+    "storage_bucket": "lensmlkit.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:45551914929:android:c37430129ddb3c50",
+        "android_client_info": {
+          "package_name": "ch13mob.googlelensmlkit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "45551914929-rbhhp7vq2rv7mbgjoh2ee0i40e0md32q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ch13mob.googlelensmlkit",
+            "certificate_hash": "75c22909ecb156c4c485186e52756f9ef22e3744"
+          }
+        },
+        {
+          "client_id": "45551914929-d91vh79e4h4147kkm0o974hdhuvokgbp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7HHxrnLP1qRlDQf3PI3d7lnQllwv077o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "45551914929-d91vh79e4h4147kkm0o974hdhuvokgbp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
